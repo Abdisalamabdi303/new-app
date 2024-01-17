@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif ;
+    box-sizing: border-box;
+    transition: 0.2s ease;
+}
+
+.card{
+    
+    min-width: 300px;
+    background: linear-gradient(135deg,hsl(241, 67%, 65%),hwb(79 29% 15%));
+    color: hsla(0, 2%, 10%, 0.662);
+    margin: 70px;
+    margin-top: 0;
+    margin-bottom: 70px;
+    border-radius: 20px;
+    padding: 10px 25px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgb(142, 88, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+Form{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 70px;
+}
+.cityInput{
+    border: none;
+    background: hsl(171, 100%, 96%);
+    color: #555;
+    padding: 10px 25px;
+    border-radius: 30px;
+    height: 60px;
+    outline: 0;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+input:hover{
+    background: hsl(171, 100%, 86%);
+}
+ button{
+    border: none;
+    background: hsl(171, 100%, 96%);
+    outline: 0;
+    border-radius: 50% ;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+ button:hover{
+    background: hsl(171, 100%, 86%);
+}
+
+h1{
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.532);
+}
+p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+.cityDisplay, .tempDisplay{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.548);
+    margin-bottom: 25px;
+    
+}
+.humidityDisplay{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.descDisplay{
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.errorDisplay{
+    font-size: 2.5rem;
+    color: rgba(0, 0, 0, 0.663);
+    font-weight: bold;
+    display: flex;
+}
+.weatherEmoji{
+    color: rgb(235, 251, 251);
+    font-size: 7.5rem;
+}
+.container{
+    background-image: url(images/background.jpg);
+    background-attachment: absolute;
+    background-position: absolute;
+    background-size: cover;
+   
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    
+    
+    
+}
